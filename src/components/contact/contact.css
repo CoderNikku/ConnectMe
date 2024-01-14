@@ -1,0 +1,109 @@
+/* .contact{
+    display: flex;
+    align-items: center;
+}
+
+.first{
+    display: flex;
+}
+
+.first-img img{
+    height: 200px;
+    width: 300px;
+}
+.first-msg{
+    font-size: 15px;
+}
+
+
+.second{
+    padding: 10px 30px;
+    align-items: center;
+}
+
+ul{
+list-style: none;
+text-decoration: none;
+}
+
+li {
+    list-style: none;
+    padding: 5px 5px;
+
+}
+
+li a{
+    text-decoration: none;
+    gap: 30px;
+}
+
+.second img{
+height: 60px;
+width: 70px;
+cursor: pointer;
+
+} */
+
+
+
+
+/* contact.css */
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.first {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.first-img img {
+    width: 200px; /* adjust the size as needed */
+}
+
+.first-msg {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.second {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.second li {
+    margin: 10px;
+}
+
+.second li a {
+    text-decoration: none;
+    color: #333; /* adjust the color as needed */
+    display: flex;
+    align-items: center;
+}
+
+.second li img {
+    width: 20px; /* adjust the size as needed */
+    margin-right: 10px;
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 600px) {
+    .first-img img {
+        width: 80px; /* adjust the size as needed for smaller screens */
+    }
+
+    .second li {
+        margin: 5px;
+    }
+}

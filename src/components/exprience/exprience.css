@@ -1,0 +1,42 @@
+.experience {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .oftmind,
+  .inventia,
+  .cetpa {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 10px;
+    width: 300px; /* Adjust as needed */
+  }
+  
+  /* Optional: Style for different companies */
+  .oftmind {
+    background-color: #f0f0f0;
+  }
+  
+  .inventia {
+    background-color: #e0e0e0;
+  }
+  
+  .cetpa {
+    background-color: #d0d0d0;
+  }
+  
+  /* Responsive styling */
+  @media (max-width: 768px) {
+    .experience {
+      flex-direction: column;
+    }
+  
+    .oftmind,
+    .inventia,
+    .cetpa {
+      width: 100%;
+    }
+  }
+  

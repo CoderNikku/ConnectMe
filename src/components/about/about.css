@@ -1,0 +1,39 @@
+.about {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+  }
+  
+  .profileimg img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .navbar {
+    max-width: 600px;
+  }
+  
+  .navbar h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .navbar p {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .about {
+      flex-direction: column;
+    }
+  
+    .profileimg img {
+      margin-bottom: 20px;
+    }
+  }
+  

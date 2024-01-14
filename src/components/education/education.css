@@ -1,0 +1,42 @@
+.education {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .btech,
+  .poly,
+  .ba {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 10px;
+    width: 300px; /* Adjust as needed */
+  }
+  
+  /* Optional: Style for different degree levels */
+  .btech {
+    background-color: #f0f0f0;
+  }
+  
+  .poly {
+    background-color: #e0e0e0;
+  }
+  
+  .ba {
+    background-color: #d0d0d0;
+  }
+  
+  /* Responsive styling */
+  @media (max-width: 768px) {
+    .education {
+      flex-direction: column;
+    }
+  
+    .btech,
+    .poly,
+    .ba {
+      width: 100%;
+    }
+  }
+  

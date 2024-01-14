@@ -1,0 +1,53 @@
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .skills li {
+    list-style: none;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    width: 150px; /* Adjust as needed */
+    text-align: center;
+  }
+  
+  /* Define different background colors for different skill levels */
+  [data-level="60"] {
+    background-color: #f0f0f0; /* Light gray for lower level */
+  }
+  
+  [data-level="70"] {
+    background-color: #e0e0e0; /* Medium gray */
+  }
+  
+  [data-level="75"] {
+    background-color: #d0d0d0; /* Dark gray */
+  }
+  
+  [data-level="80"] {
+    background-color: #c0c0c0; /* Lighter than medium */
+  }
+  
+  [data-level="85"] {
+    background-color: #b0b0b0; /* Darker than medium */
+  }
+  
+  [data-level="90"] {
+    background-color: #a0a0a0; /* Lightest gray for higher level */
+  }
+  
+  /* Responsive styling */
+  @media (max-width: 768px) {
+    .skills {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .skills li {
+      width: 100%;
+    }
+  }
+  

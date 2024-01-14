@@ -1,0 +1,36 @@
+.projects {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .hospital,
+  .ecommerce {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 10px;
+    width: 300px; /* Adjust as needed */
+  }
+  
+  /* Optional: Style for different projects */
+  .hospital {
+    background-color: #f0f0f0;
+  }
+  
+  .ecommerce {
+    background-color: #e0e0e0;
+  }
+  
+  /* Responsive styling */
+  @media (max-width: 768px) {
+    .projects {
+      flex-direction: column;
+    }
+  
+    .hospital,
+    .ecommerce {
+      width: 100%;
+    }
+  }
+  
